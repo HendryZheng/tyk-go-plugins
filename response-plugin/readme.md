@@ -35,7 +35,7 @@ To get started with writing a request plugin for Tyk, follow these steps:
     ```
     docker run --rm -v `pwd`:/plugin-source \
            --platform=linux/amd64 \
-           tykio/tyk-plugin-compiler:v5.2.1 plugin.so
+           tykio/tyk-plugin-compiler:v5.0.10 plugin.so
     ```
     
 
